@@ -2,17 +2,20 @@
   <v-app>
     <v-main>
       <hero />
+      <mainBody />
     </v-main>
   </v-app>
 </template>
 
 <script>
 import hero from "./components/hero.vue";
+import mainBody from "./components/mainBody.vue";
 
 export default {
   name: "App",
   components: {
     hero,
+    mainBody,
   },
 };
 </script>
