@@ -2,7 +2,7 @@
   <div class="nav-container">
     <div class="nav-sections">
       <div class="nav-section1">
-        <img src="../assets/Logo.svg" alt="" />
+        <img src="Logo.svg" alt="" />
       </div>
       <div class="nav-section2">
         <ul class="list-items">
@@ -14,8 +14,8 @@
         </ul>
       </div>
       <div class="nav-section3">
-        <img src="../assets/search.svg" alt="" />
-        <img src="../assets/items.svg" alt="" />
+        <img src="search.svg" alt="" />
+        <img src="items.svg" alt="" />
       </div>
     </div>
   </div>
