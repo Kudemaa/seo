@@ -3,7 +3,7 @@
     <navBar />
     <div class="hero-content">
       <div class="hero-info">
-        <img src="../assets/hero-icon.svg" alt="" />
+        <img src="hero-icon.svg" alt="" />
         <h1>Sales Optimization & Data Analysis</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
