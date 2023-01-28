@@ -1,8 +1,19 @@
 <template lang="">
   <div class="body-container">
     <v-container class="pa-16">
+      <h1 class="text-h6 text-center">Full Service Digital Marketing Agency</h1>
+      <div class="dividerSvg d-flex justify-center mt-3">
+        <img src="DividerSvg.svg" alt="" />
+      </div>
+      <div class="pWrapper d-flex justify-center" style="font-size: 12px">
+        <p class="text-center mt-3" style="width: 30rem">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+          purus sit amet luctus venenatis, lectus magna fringilla urna,
+          porttitor rhoncus dolor purus non enim praes
+        </p>
+      </div>
       <v-row>
-        <v-col v-for="card in cards" :cols="3" align="center">
+        <v-col v-for="card in cards" :cols="3" :xs="1" align="center">
           <v-hover v-slot="{ hover }">
             <v-card
               outlined
@@ -37,6 +48,29 @@
         </v-col>
       </v-row>
     </v-container>
+    <div class="text-wrapper-2 d-flex justify-center mt-n4 pa-3">
+      <div
+        class="text-center d-flex justify-space-between"
+        style="width: 27rem"
+      >
+        <v-btn
+          rounded
+          color="#FBA60B"
+          dark
+          style="width: 200px; font-size: 12px; color: white"
+        >
+          Free Seo Consultation
+        </v-btn>
+        <v-btn
+          rounded
+          color="#4942A2"
+          dark
+          style="width: 200px; font-size: 12px; color: white"
+        >
+          Request afree quote
+        </v-btn>
+      </div>
+    </div>
   </div>
 </template>
 <script>
