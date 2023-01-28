@@ -56,7 +56,7 @@ export default {
   padding: 0.8rem 3rem;
   color: white;
   cursor: pointer;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 .hero-content h1 {
   font-size: 52px;
