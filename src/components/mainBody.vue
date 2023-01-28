@@ -13,7 +13,7 @@
         </p>
       </div>
       <v-row>
-        <v-col v-for="card in cards" :cols="3" :xs="1" align="center">
+        <v-col v-for="card in cards" :cols="3" :xs="2" align="center">
           <v-hover v-slot="{ hover }">
             <v-card
               outlined
