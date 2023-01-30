@@ -3,6 +3,7 @@
     <v-main>
       <hero />
       <mainBody />
+      <testmonial />
     </v-main>
   </v-app>
 </template>
@@ -10,12 +11,14 @@
 <script>
 import hero from "./components/hero.vue";
 import mainBody from "./components/mainBody.vue";
+import testmonial from "./components/testmonial.vue";
 
 export default {
   name: "App",
   components: {
     hero,
     mainBody,
+    testmonial,
   },
 };
 </script>
