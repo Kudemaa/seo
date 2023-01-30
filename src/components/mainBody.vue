@@ -71,22 +71,6 @@
         </v-btn>
       </div>
     </div>
-    <div class="marquee">
-      <div class="marquee-container">
-        <img
-          class="first-marquee"
-          src="sponsor.svg"
-          width="172"
-          height="79"
-          alt=""
-        />
-        <img src="sponsor.svg" width="172" height="79" alt="" />
-        <img src="sponsor.svg" width="172" height="79" alt="" />
-        <img src="sponsor.svg" width="172" height="79" alt="" />
-        <img src="sponsor.svg" width="172" height="79" alt="" />
-        <img src="sponsor.svg" width="172" height="79" alt="" />
-      </div>
-    </div>
   </div>
 </template>
 <script>
@@ -151,26 +135,5 @@ export default {
 }
 .v-card.on-hover {
   background-color: red;
-}
-.marquee-container img {
-  animation: bannermove 1s linear infinite;
-  white-space: nowrap;
-}
-.marquee-container {
-  width: 100%;
-  overflow: hidden;
-}
-.marquee {
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-}
-@keyframes "bannermove" {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
 }
 </style>
