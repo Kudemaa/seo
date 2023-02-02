@@ -54,7 +54,7 @@ export default {};
   background-color: white;
   position: absolute;
   margin-left: 300px;
-  bottom: 170px;
+  margin-top: -62px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -78,7 +78,7 @@ export default {};
   background-color: #fba60b;
   color: white;
   border-radius: 30px 30px 0 0;
-  width: 101%;
+  width: 100%;
   text-align: center;
   padding: 1.35rem 0 1.35rem 0;
 }
@@ -89,8 +89,7 @@ export default {};
   position: absolute;
   width: 431px;
   height: 390px;
-
   left: 873px;
-  bottom: 106px;
+  margin-top: 128px;
 }
 </style>
