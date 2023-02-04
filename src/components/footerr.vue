@@ -40,7 +40,34 @@
             </div>
           </div>
         </div>
-        <div class="footer-top-second"></div>
+        <div class="footer-top-second">
+          <div class="first-column">
+            <p class="text-h5">Methdology</p>
+            <img src="footerdivider.svg" alt="" />
+            <p>On Page SEO</p>
+            <p>Off Page SEO</p>
+            <p>Thematic Keyword</p>
+            <p>Web Development</p>
+          </div>
+          <div class="second-column">
+            <p class="text-h5">Useful Links</p>
+            <img src="footerdivider.svg" alt="" />
+            <p>Professional Team</p>
+            <p>Testimonials</p>
+            <p>Support</p>
+            <p>Privacy Policy</p>
+            <p>Press</p>
+            <p>Why SEO MAtters</p>
+          </div>
+          <div class="third-column">
+            <p class="text-h5">Company</p>
+            <img src="footerdivider.svg" alt="" />
+            <p>Careers</p>
+            <p>SEO Blog</p>
+            <p>Sitemap</p>
+            <p>Keyword Analytics</p>
+          </div>
+        </div>
       </div>
       <div class="footer-bottom-container"></div>
     </div>
@@ -81,11 +108,28 @@ export default {};
   margin-left: 30px;
 }
 .footer-top-second {
-  background-color: black;
   width: 100vw;
+  color: white;
+  display: flex;
 }
 .footer-bottom-container {
   background-color: yellow;
   height: 100px;
+}
+.first-column,
+.second-column,
+.third-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.first-column > *,
+.second-column > *,
+.third-column > * {
+  margin-bottom: 17px;
+  font-size: 12px;
+  cursor: pointer;
 }
 </style>
