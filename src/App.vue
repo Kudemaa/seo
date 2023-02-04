@@ -5,6 +5,7 @@
       <mainBody />
       <testmonial />
       <news />
+      <footerr />
     </v-main>
   </v-app>
 </template>
@@ -14,6 +15,7 @@ import hero from "./components/hero.vue";
 import mainBody from "./components/mainBody.vue";
 import testmonial from "./components/testmonial.vue";
 import news from "./components/news.vue";
+import footerr from "./components/footerr.vue";
 
 export default {
   name: "App",
@@ -22,6 +24,7 @@ export default {
     mainBody,
     testmonial,
     news,
+    footerr,
   },
 };
 </script>
