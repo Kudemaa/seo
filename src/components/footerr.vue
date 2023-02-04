@@ -42,7 +42,7 @@
         </div>
         <div class="footer-top-second">
           <div class="first-column">
-            <p class="text-h5">Methdology</p>
+            <p class="text-h5 mb-3">Methdology</p>
             <img src="footerdivider.svg" alt="" />
             <p>On Page SEO</p>
             <p>Off Page SEO</p>
@@ -50,7 +50,7 @@
             <p>Web Development</p>
           </div>
           <div class="second-column">
-            <p class="text-h5">Useful Links</p>
+            <p class="text-h5 mb-3">Useful Links</p>
             <img src="footerdivider.svg" alt="" />
             <p>Professional Team</p>
             <p>Testimonials</p>
@@ -60,7 +60,7 @@
             <p>Why SEO MAtters</p>
           </div>
           <div class="third-column">
-            <p class="text-h5">Company</p>
+            <p class="text-h5 mb-3">Company</p>
             <img src="footerdivider.svg" alt="" />
             <p>Careers</p>
             <p>SEO Blog</p>
@@ -69,7 +69,18 @@
           </div>
         </div>
       </div>
-      <div class="footer-bottom-container"></div>
+      <img src="footerline.svg" alt="" style="margin-left: 180px" />
+      <div class="footer-bottom-container">
+        <div class="bottom-first-column text-caption">
+          <p>Copyright © 2022 Company.com . All rights reserved.</p>
+        </div>
+        <div class="bottom-second-column">
+          <p>SERVICES</p>
+          <p>FEATURES</p>
+          <p>CASE STUDIES</p>
+          <p>CONTACT</p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -79,7 +90,7 @@ export default {};
 <style lang="scss">
 .footer-container {
   width: 100vw;
-  height: 400px;
+  height: 430px;
   background-color: #1f242a;
 }
 .footer-top-container {
@@ -113,8 +124,12 @@ export default {};
   display: flex;
 }
 .footer-bottom-container {
-  background-color: yellow;
+  color: white;
   height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 .first-column,
 .second-column,
@@ -125,11 +140,20 @@ export default {};
   margin-right: 30px;
   margin-top: 20px;
 }
-.first-column > *,
-.second-column > *,
-.third-column > * {
+.first-column > *:not(:first-child),
+.second-column > *:not(:first-child),
+.third-column > *:not(:first-child) {
   margin-bottom: 17px;
   font-size: 12px;
+  cursor: pointer;
+}
+.bottom-second-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 25rem;
+}
+.bottom-second-column > * {
   cursor: pointer;
 }
 </style>
